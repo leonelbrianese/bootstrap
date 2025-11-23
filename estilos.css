@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik:wght@900&display=swap');
+body{
+   background-color: rgb(105, 105, 65);
+        
+color: rgb(236, 226, 168);
+}
+header{
+    text-align: center;
+    padding: 30px;
+}
+.barra{
+    font-family: 'Rubik', sans-serif;
+background-color: rgb(46, 31, 8); 
+    border: 2px solid rgb(92, 64, 11);
+    padding: 10px;
+}
+.barra:hover{
+    color: rgb(254, 240, 255);
+    background-color:rgb(30, 25, 80);
+}
+.consigna{
+background-color: rgb(46, 31, 8);
+padding: 30px;
+    border: 2px solid rgb(92, 64, 11);
+font-family: 'Rubik', sans-serif;
+margin: 20px;
+
+}
+
+article{
+    font-size:larger;
+    font-family: 'Quicksand', sans-serif;
+}
+.Proceso{
+background-color: rgb(46, 31, 8);
+padding: 30px;
+    border: 2px solid rgb(92, 64, 11);
+font-family: 'Rubik', sans-serif;
+margin: 20px;
+}
+
+.Proceso strong {
+    color: rgb(96, 90, 172);
+}
+
+.cartas strong {
+    background-color: navajowhite; 
+    color: rgb(96, 90, 172);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+}
+
+.imagenes{
+    padding: 30px;
+}
+
+h1{
+    background-color:rgb(58, 30, 21);
+    border: 2px solid rgb(37, 20, 14);
+}
