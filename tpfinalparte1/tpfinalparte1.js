@@ -16,9 +16,9 @@ let clickSonido = false;
 function preload() {
   let pantallas = [
     "data/aa.jpg", "data/a1.jpg", "data/a2.jpg", "data/a3.jpg", "data/a4.jpg",
-    "data/af.jpg", "data/b3.jpg", "data/bf.jpg", "data/bisf.jpg",
+    "data/af.jpg", "data/b3.jpg", "data/bF.jpg", "data/bisF.jpg",
     "data/c4.jpg", "data/c5.jpg", "data/c6.jpg", "data/c7.jpg",
-    "data/cf.jpg", "data/d7.jpg", "data/df.jpg", "data/zz.jpg"
+    "data/cF.jpg", "data/d7.jpg", "data/dF.jpg", "data/zz.jpg"
   ];
 
   for (let i = 0; i < pantallas.length; i++) {
@@ -46,3 +46,4 @@ function draw() {
   inicio();
   Todo();
 }
+
