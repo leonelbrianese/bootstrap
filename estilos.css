@@ -1,42 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik:wght@900&display=swap');
-body{
-   background-color: rgb(105, 105, 65);
-        
-color: rgb(236, 226, 168);
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+body {
+    background-color: rgb(105, 105, 65);
+    color: rgb(236, 226, 168);
+    font-family: 'MedievalSharp', cursive; 
 }
-header{
+
+header {
     text-align: center;
     padding: 30px;
 }
-.barra{
-    font-family: 'Rubik', sans-serif;
-background-color: rgb(46, 31, 8); 
+
+.barra {
+    background-color: rgb(46, 31, 8);
     border: 2px solid rgb(92, 64, 11);
     padding: 10px;
 }
-.barra:hover{
+
+.barra:hover {
     color: rgb(254, 240, 255);
-    background-color:rgb(30, 25, 80);
-}
-.consigna{
-background-color: rgb(46, 31, 8);
-padding: 30px;
-    border: 2px solid rgb(92, 64, 11);
-font-family: 'Rubik', sans-serif;
-margin: 20px;
-
+    background-color: rgb(30, 25, 80);
 }
 
-article{
-    font-size:larger;
-    font-family: 'Quicksand', sans-serif;
-}
-.Proceso{
-background-color: rgb(46, 31, 8);
-padding: 30px;
+.consigna {
+    background-color: rgb(46, 31, 8);
+    padding: 30px;
     border: 2px solid rgb(92, 64, 11);
-font-family: 'Rubik', sans-serif;
-margin: 20px;
+    margin: 20px;
+}
+
+article {
+    font-size: larger;
+}
+
+.Proceso {
+    background-color: rgb(46, 31, 8);
+    padding: 30px;
+    border: 2px solid rgb(92, 64, 11);
+    margin: 20px;
 }
 
 .Proceso strong {
@@ -44,19 +46,28 @@ margin: 20px;
 }
 
 .cartas strong {
-    background-color: navajowhite; 
+    background-color: navajowhite;
     color: rgb(96, 90, 172);
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
     margin: auto;
 }
+.card-text{
+font-family:Helvetica;
 
-.imagenes{
+}
+
+.consigna strong{
+font-family:Helvetica;
+
+
+
+}
+.imagenes {
     padding: 30px;
 }
 
-h1{
-    background-color:rgb(58, 30, 21);
+h1 {
+    background-color: rgb(58, 30, 21);
     border: 2px solid rgb(37, 20, 14);
 }
